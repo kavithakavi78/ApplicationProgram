@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="280.356236">
+<testcase classname="User test the Jpet application Functionality" name="User register the jpet application" time="84.486809">
+<system-out><![CDATA[Given User launch the Jpet Application......................................passed
+When User register his details..............................................passed
+Then User check sign in process.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User test the Jpet application Functionality" name="User Check the Search functionality" time="27.930453">
+<system-out><![CDATA[Given User launches Jpet Application........................................passed
+When User login with his credentials........................................passed
+Then User searches the item in search tag...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User test the Jpet application Functionality" name="User Check the place order functionality" time="55.942908">
+<system-out><![CDATA[Given User launches the pet Application.....................................passed
+And User login the application with credentials.............................passed
+When User Searching the pet in search box...................................passed
+And User add the pet in cart................................................passed
+Then User placed the order..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User test the Jpet application Functionality" name="User Check the update cart function" time="63.647335">
+<system-out><![CDATA[Given User launching the pet application....................................passed
+And User logged in with valid credentials...................................passed
+When User select the pets...................................................passed
+And User update the cart....................................................passed
+Then User add one more item in cart.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User test the Jpet application Functionality" name="User Check the remove functionality" time="48.348731">
+<system-out><![CDATA[Given User launching the Jept application...................................passed
+And User login with valid credentials.......................................passed
+When User search the item and add to the cart...............................passed
+Then User click remove option in cart page..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

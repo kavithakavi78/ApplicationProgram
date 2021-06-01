@@ -1,0 +1,37 @@
+@tag
+Feature: User test the Jpet application Functionality
+
+  @tag1
+  Scenario: User register the jpet application # JpetApp.feature:6
+    Given User launch the Jpet Application     # StepDefinition.user_launch_the_Jpet_Application()
+    When User register his details             # StepDefinition.user_register_his_details()
+    Then User check sign in process            # StepDefinition.user_check_sign_in_process()
+
+  @tag2
+  Scenario: User Check the Search functionality # JpetApp.feature:12
+    Given User launches Jpet Application        # StepDefinition.user_launches_Jpet_Application()
+    When User login with his credentials        # StepDefinition.user_login_with_his_credentials()
+    Then User searches the item in search tag   # StepDefinition.user_searches_the_item_in_search_tag()
+
+  @tag3
+  Scenario: User Check the place order functionality # JpetApp.feature:19
+    Given User launches the pet Application          # StepDefinition.user_launches_the_pet_Application()
+    And User login the application with credentials  # StepDefinition.user_login_the_application_with_credentials()
+    When User Searching the pet in search box        # StepDefinition.user_Searching_the_pet_in_search_box()
+    And User add the pet in cart                     # StepDefinition.user_add_the_pet_in_cart()
+    Then User placed the order                       # StepDefinition.user_placed_the_order()
+
+  @tag4
+  Scenario: User Check the update cart function # JpetApp.feature:28
+    Given User launching the pet application    # StepDefinition.user_launching_the_pet_application()
+    And User logged in with valid credentials   # StepDefinition.user_logged_in_with_valid_credentials()
+    When User select the pets                   # StepDefinition.user_select_the_pets()
+    And User update the cart                    # StepDefinition.user_update_the_cart()
+    Then User add one more item in cart         # StepDefinition.user_add_one_more_item_in_cart()
+
+  @tag5
+  Scenario: User Check the remove functionality   # JpetApp.feature:39
+    Given User launching the Jept application     # StepDefinition.user_launching_the_Jept_application()
+    And User login with valid credentials         # StepDefinition.user_login_with_valid_credentials()
+    When User search the item and add to the cart # StepDefinition.user_search_the_item_and_add_to_the_cart()
+    Then User click remove option in cart page    # StepDefinition.user_click_remove_option_in_cart_page()

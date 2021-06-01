@@ -1,0 +1,338 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User register the jpet application",
+        "description": "",
+        "id": "user-test-the-jpet-application-functionality;user-register-the-jpet-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32548843740,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User launch the Jpet Application",
+            "match": {
+              "location": "StepDefinition.user_launch_the_Jpet_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37098080453,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User register his details",
+            "match": {
+              "location": "StepDefinition.user_register_his_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14839884361,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User check sign in process",
+            "match": {
+              "location": "StepDefinition.user_check_sign_in_process()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "User Check the Search functionality",
+        "description": "",
+        "id": "user-test-the-jpet-application-functionality;user-check-the-search-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12779942680,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User launches Jpet Application",
+            "match": {
+              "location": "StepDefinition.user_launches_Jpet_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4841115119,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User login with his credentials",
+            "match": {
+              "location": "StepDefinition.user_login_with_his_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10309395104,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User searches the item in search tag",
+            "match": {
+              "location": "StepDefinition.user_searches_the_item_in_search_tag()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "User Check the place order functionality",
+        "description": "",
+        "id": "user-test-the-jpet-application-functionality;user-check-the-place-order-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9831286977,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User launches the pet Application",
+            "match": {
+              "location": "StepDefinition.user_launches_the_pet_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5291661439,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User login the application with credentials",
+            "match": {
+              "location": "StepDefinition.user_login_the_application_with_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6590611423,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Searching the pet in search box",
+            "match": {
+              "location": "StepDefinition.user_Searching_the_pet_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12312367996,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User add the pet in cart",
+            "match": {
+              "location": "StepDefinition.user_add_the_pet_in_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21916979850,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User placed the order",
+            "match": {
+              "location": "StepDefinition.user_placed_the_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "User Check the update cart function",
+        "description": "",
+        "id": "user-test-the-jpet-application-functionality;user-check-the-update-cart-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12019374675,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User launching the pet application",
+            "match": {
+              "location": "StepDefinition.user_launching_the_pet_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4965213011,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User logged in with valid credentials",
+            "match": {
+              "location": "StepDefinition.user_logged_in_with_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20413914795,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User select the pets",
+            "match": {
+              "location": "StepDefinition.user_select_the_pets()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8411403359,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User update the cart",
+            "match": {
+              "location": "StepDefinition.user_update_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17837429246,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User add one more item in cart",
+            "match": {
+              "location": "StepDefinition.user_add_one_more_item_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@tag4"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "User Check the remove functionality",
+        "description": "",
+        "id": "user-test-the-jpet-application-functionality;user-check-the-remove-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15822061734,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User launching the Jept application",
+            "match": {
+              "location": "StepDefinition.user_launching_the_Jept_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6239735365,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User login with valid credentials",
+            "match": {
+              "location": "StepDefinition.user_login_with_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19020697596,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User search the item and add to the cart",
+            "match": {
+              "location": "StepDefinition.user_search_the_item_and_add_to_the_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7266236019,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User click remove option in cart page",
+            "match": {
+              "location": "StepDefinition.user_click_remove_option_in_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 38,
+            "name": "@tag5"
+          }
+        ]
+      }
+    ],
+    "name": "User test the Jpet application Functionality",
+    "description": "",
+    "id": "user-test-the-jpet-application-functionality",
+    "keyword": "Feature",
+    "uri": "JpetApp.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@tag"
+      }
+    ]
+  }
+]
